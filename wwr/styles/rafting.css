@@ -6,7 +6,7 @@
 
 :root{
     --primary-color: darkblue;
-    --secondary-color: rgb(39, 21, 21);
+    --secondary-color: blue;
     --accent1-color: black;
     --accent2-color: darkgrey;
     --heading-font: "Times New Roman", "Cambria", serif;
@@ -36,7 +36,7 @@ h1 {
     width: 100%;
     padding: 16px;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
 nav, p, section, article {
@@ -44,12 +44,12 @@ nav, p, section, article {
     padding: 8px;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 0;
     text-align: center;
-    background-color: var(--accent1-color);
-    opacity: 0.9;
+    background-color: var(--accent2-color);
+    opacity: 1;
     color: #fff;
 }
 .socialmedia a{
